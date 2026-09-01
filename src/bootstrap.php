@@ -2,10 +2,7 @@
 
 declare(strict_types=1);
 
-use PDO;
-use RuntimeException;
-
-if (session_status() !== PHP_SESSION_ACTIVE) {
+if (PHP_SAPI !== 'cli' && session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
 }
 
