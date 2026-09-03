@@ -1,0 +1,6 @@
+/.env
+/vendor/
+/storage/private/**
+!/storage/private/.gitkeep
+.DS_Store
+Thumbs.db

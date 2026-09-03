@@ -1,0 +1,15 @@
+{
+  "name": "aerts-action-bike/leaseflow",
+  "description": "AAB LeaseFlow - leasing document portal",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "setasign/fpdf": "^1.8",
+    "setasign/fpdi": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "AAB\\LeaseFlow\\": "src/"
+    }
+  }
+}
